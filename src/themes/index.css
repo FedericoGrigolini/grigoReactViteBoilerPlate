@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&family=Metal+Mania&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+
+@layer components {
+    .base-button {
+        @apply inline-flex cursor-pointer items-center justify-center rounded border-b-4 border-transparent bg-primary py-1.5 px-6 font-medium tracking-wide text-white shadow-md hover:bg-opacity-80;
+    }
+
+    .base-input {
+        @apply relative mb-2 block appearance-none border border-primary/20 px-3 py-2 text-sm text-primary placeholder-white focus:border-secondary focus:outline-none focus:ring-secondary;
+    }
+
+    .base-input-file {
+        @apply relative mb-2 appearance-none border border-primary/20 px-3 py-2 text-sm text-primary placeholder-white file:absolute file:top-0 file:-right-1 file:cursor-pointer file:border-0 file:border-l file:border-primary file:bg-primary file:p-2 file:text-white file:hover:border-primary/40 file:hover:bg-secondary file:hover:text-primary focus:z-20 focus:border-secondary focus:outline-none focus:ring-secondary;
+    }
+}
+
+@layer utilities {
+    .flex-2 {
+        flex: 2;
+    }
+    .flex-3 {
+        flex: 3;
+    }
+    .flex-4 {
+        flex: 4;
+    }
+    .flex-5 {
+        flex: 5;
+    }
+    .flex-6 {
+        flex: 6;
+    }
+    .flex-7 {
+        flex: 7;
+    }
+    .flex-8 {
+        flex: 8;
+    }
+    .flex-9 {
+        flex: 9;
+    }
+    .flex-10 {
+        flex: 10;
+    }
+}

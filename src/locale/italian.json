@@ -1,0 +1,31 @@
+{
+    "general": {
+        "orgname": "Grigosot",
+        "confirm": "Conferma",
+        "all": "Tutti",
+        "back": "Indietro",
+        "close": "Chiudi",
+        "offline": "Offline",
+        "online": "Online",
+        "none": "Nessuno",
+        "cancel": "Annulla",
+        "save": "Salva",
+        "notDefined": "Non Definito",
+        "delete": "Rimuovi",
+        "next": "Successivo",
+        "previous": "Precedente",
+        "true": "Vero",
+        "false": "Falso",
+        "yes": "Sì",
+        "no": "No"
+    },
+    "days": {
+        "monday": "Lunedì",
+        "tuesday": "Martedì",
+        "wendsday": "Mercoledì",
+        "thursday": "Giovedì",
+        "friday": "Venerdì",
+        "saturday": "Sabato",
+        "sunday": "Domenica"
+    }
+}
